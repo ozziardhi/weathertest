@@ -1,16 +1,51 @@
-# weather
+# WeatherTest (Flutter)
 
-A new Flutter project.
+Aplikasi cuaca dengan tampilan glassmorphism + gradient, aksen **floating glows**, dan **dua kartu cuaca sekaligus**: **lokasi saat ini** (GPS) serta **hasil pencarian kota**. State dikelola dengan **Riverpod**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur
 
-A few resources to get you started if this is your first Flutter project:
+- 📍 Otomatis memuat **cuaca lokasi saat ini** saat aplikasi dibuka
+- 🔎 **Pencarian kota** dan menampilkan hasilnya bersamaan dengan lokasi saat ini
+- 🎛️ UI modern: glass card, gradient background, floating glows
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Teknologi
+
+- Flutter 3.x
+- Riverpod (state management)
+- intl (format tanggal/waktu)
+- OpenWeather API (Current Weather Data)
+- Geolocator (lokasi perangkat)
+
+## 📦 Struktur Project (ringkas)
+ib/
+├─ core/
+│ ├─ models/ # Weather
+│ ├─ repository/ # WeatherRepository (OpenWeather)
+│ └─ services/ # LocationService (geolocator)
+├─ features/
+│ └─ home/
+│ ├─ controller/ # HomeController
+│ ├─ widgets/ # background_gradient, floating_glows, hero card, dll
+│ ├─ weather_controller.dart
+│ └─ home_page.dart
+└─ utils/ # error helper, time provider
+
+---
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="D:\flutter\technicaltest\weather\assets\screenshot\weather.gif" alt="WeatherTest Demo" width="360"/>
+</p>
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="D:\flutter\technicaltest\weather\assets\screenshot\homepage.jpeg" alt="Home" width="280"/>
+  <img src="D:\flutter\technicaltest\weather\assets\screenshot\loginpage.jpeg" alt="Search Result" width="280"/>
+</p>

@@ -12,7 +12,7 @@ class FloatingGlows extends StatelessWidget {
         children: const [
           _CloudSprite(
             asset: WeatherAssets.sunCloud,
-            top: 40,
+            top: 30,
             left: 40,
             width: 100,
             opacity: .26,

@@ -38,14 +38,12 @@ ib/
 ---
 
 ## 🎬 Demo
-
 <p align="center">
-  <img src="D:\flutter\technicaltest\weather\assets\screenshot\weather.gif" alt="WeatherTest Demo" width="360"/>
+  <img src="assets/screenshot/weather.gif" alt="WeatherTest Demo" width="360" />
 </p>
 
 ## 🖼️ Screenshots
-
 <p align="center">
-  <img src="D:\flutter\technicaltest\weather\assets\screenshot\homepage.jpeg" alt="Home" width="280"/>
-  <img src="D:\flutter\technicaltest\weather\assets\screenshot\loginpage.jpeg" alt="Search Result" width="280"/>
+  <img src="assets/screenshot/homepage.jpeg" alt="Home" width="280" />
+  <img src="assets/screenshot/loginpage.jpeg" alt="Search Result" width="280" />
 </p>
